@@ -92,3 +92,26 @@ body {
   display: block;
 }
 
+.card-content {
+  padding: 14px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-overview {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
