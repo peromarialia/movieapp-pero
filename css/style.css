@@ -161,3 +161,25 @@ body {
   font-size: 14px;
 }
 
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .hero,
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
+
