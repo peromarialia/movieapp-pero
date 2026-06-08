@@ -125,3 +125,31 @@ body {
   margin-bottom: 10px;
 }
 
+.profile-box {
+  background: #1f1f1f;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  background: #e50914;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-box h2 {
+  margin-bottom: 12px;
+}
+
+.profile-box p {
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
