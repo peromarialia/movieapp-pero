@@ -10,3 +10,8 @@ async function getLocalCatalog() {
   const data = await response.json();
   return data.items;
 }
+
+export async function getAllContent() {
+  return getLocalCatalog();
+}
+
