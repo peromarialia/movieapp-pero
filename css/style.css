@@ -153,3 +153,11 @@ body {
   margin-bottom: 8px;
 }
 
+.footer {
+  background: #000000;
+  color: #999999;
+  padding: 24px 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
