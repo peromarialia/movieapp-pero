@@ -43,3 +43,17 @@ body {
 .nav a:hover {
   color: #b3b3b3;
 }
+
+.hero {
+  padding: 50px 40px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #cccccc;
+  max-width: 650px;
+}
