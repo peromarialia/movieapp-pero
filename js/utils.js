@@ -14,3 +14,12 @@ export function setStatus(message) {
 
   statusElement.textContent = message;
 }
+
+export function hideStatus() {
+  const statusElement = document.querySelector("#status");
+
+  if (!statusElement) return;
+
+  statusElement.style.display = "none";
+}
+
