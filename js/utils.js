@@ -3,3 +3,7 @@ export function renderCards(items, container) {
     container.innerHTML = "<p>Nessun contenuto disponibile.</p>";
     return;
   }
+
+  container.innerHTML = items.map(createCard).join("");
+}
+
