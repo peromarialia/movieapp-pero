@@ -66,3 +66,9 @@ body {
   color: #cccccc;
   margin-bottom: 24px;
 }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+}
