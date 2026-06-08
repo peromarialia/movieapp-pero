@@ -21,3 +21,10 @@ body {
   top: 0;
   z-index: 10;
 }
+
+.logo {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
