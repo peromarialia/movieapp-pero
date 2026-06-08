@@ -23,3 +23,22 @@ export function hideStatus() {
   statusElement.style.display = "none";
 }
 
+function createCard(item) {
+  const typeLabel = item.type === "series" ? "Serie" : "Film";
+  const poster = item.poster || "https://placehold.co/300x450?text=No+Image";
+
+  return `
+    <article class="card">
+      <img src="${escapeHTML(poster)}" alt="${escapeHTML(item.title)}" />
+      <div class="card-content">
+        <span class="badge">${typeLabel}</span>
+        <h2 class="card-title">${escapeHTML(item.title)}</h2>
+        <div class="card-meta">
+          <span>${escapeHTML(item.year || "N/D")}</span>
+          <span>⭐ ${escapeHTML(item.rating || "N/D")}</span>
+        </div>
+        <p class="card-overview">${escapeHTML(item.overview || "Descrizione non disponibile.")}</p>
+      </div>
+    </article>
+  `;
+}
