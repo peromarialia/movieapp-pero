@@ -7,3 +7,10 @@ export function renderCards(items, container) {
   container.innerHTML = items.map(createCard).join("");
 }
 
+export function setStatus(message) {
+  const statusElement = document.querySelector("#status");
+
+  if (!statusElement) return;
+
+  statusElement.textContent = message;
+}
