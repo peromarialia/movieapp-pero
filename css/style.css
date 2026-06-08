@@ -57,3 +57,7 @@ body {
   color: #cccccc;
   max-width: 650px;
 }
+
+.container {
+  padding: 20px 40px 60px;
+}
