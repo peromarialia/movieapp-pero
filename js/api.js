@@ -15,3 +15,7 @@ export async function getAllContent() {
   return getLocalCatalog();
 }
 
+export async function getMovies() {
+  const items = await getLocalCatalog();
+  return items.filter((item) => item.type === "movie");
+}
