@@ -7,24 +7,30 @@
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="./index.html">StreamFlix</a>
+  <header class="header">
+    <a class="logo" href="./index.html">StreamFlix</a>
 
-        <nav class="nav">
-            <a href="./movies.html">Film</a>
-            <a href="./series.html">Serie</a>
-            <a href="./profile.html">Profilo</a>
-        </nav>
-    </header>
+    <nav class="nav">
+      <a href="./movies.html">Film</a>
+      <a href="./series.html">Serie</a>
+      <a href="./profile.html">Profilo</a>
+    </nav>
+  </header>
 
-    <main class="container">
-        <section id="content-grid" class="card-grid"></section>
-    </main>
-    
-    <footer class="footer">
-        <p>Pagina Film - StreamFlix UI.</p>
-    </footer>
+  <section class="hero">
+    <h1>Film</h1>
+    <p>Una selezione di film disponibili nel catalogo locale.</p>
+  </section>
 
-    <script type="module" src="./js/movies.js"></script>
+  <main class="container">
+    <p id="status" class="status">Caricamento film...</p>
+    <section id="content-grid" class="card-grid"></section>
+  </main>
+
+  <footer class="footer">
+    <p>Pagina Film - StreamFlix UI.</p>
+  </footer>
+
+  <script type="module" src="./js/movies.js"></script>
 </body>
 </html>
