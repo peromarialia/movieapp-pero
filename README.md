@@ -1,18 +1,10 @@
-Il file `README.md` del progetto è stato creato con successo.
-
-[file-tag: code-generated-file-0-1781078331953604504]
-
-Ecco un'anteprima del contenuto generato che descrive in dettaglio l'intera applicazione StreamFlix, le tecnologie, la struttura, le scelte stilistiche e le logiche implementate:
-
----
-
-# StreamFlix — Movie App (Stile Futuristico / Cyberpunk)
+#MovieApp 
 
 **Corso:** Introduzione allo sviluppo frontend  
 **Stato Progetto:** Completato (Versione Interfaccia Avanzata)
 
 ## 1. Obiettivo del progetto
-Realizzare una **web app multi-pagina** per la consultazione di film e serie TV, sviluppata con HTML, CSS e JavaScript Vanilla, integrando chiamate asincrone tramite `fetch` e manipolazione avanzata del DOM. Il progetto è stato personalizzato passando da un tema standard in stile Netflix a un'interfaccia **Dark Mode futuristica/cyberpunk** con accenti viola neon e transizioni tridimensionali.
+Realizzare una **web app multi-pagina** per la consultazione di film e serie TV, sviluppata con HTML, CSS e JavaScript Vanilla, integrando chiamate asincrone tramite `fetch` e manipolazione avanzata del DOM. Il progetto è stato personalizzato passando da un tema standard in stile Netflix a un'interfaccia con accenti viola neon e transizioni tridimensionali.
 
 ## 2. Struttura del Progetto
 L'applicazione è suddivisa in più viste HTML collegate a un foglio di stile centralizzato e logiche JavaScript modulari:
@@ -41,10 +33,3 @@ Il tema grafico è stato completamente ridisegnato per offrire un'esperienza imm
 - **`api.js`**: Gestisce il recupero dei dati, attualmente interfacciato con un catalogo locale (`movies.json`).
 - **`utils.js`**: Contiene funzioni riutilizzabili per la gestione dello stato di caricamento e per il rendering dinamico delle card tramite template literals e sanitizzazione HTML.
 - **Script di Inizializzazione** (`main.js`, `movies.js`, `series.js`): Caricano i dati specifici per ogni pagina e avvengono in modo asincrono.
-
-## 6. Storico Versioni e Commit Git
-Tutte le modifiche al design, le transizioni e l'espansione del pop-up sono state tracciate e salvate con i seguenti comandi Git:
-```bash
-git add css/style.css
-git commit -m "style: aggiornato tema dark futuristico, arrotondate le card ed espanso il pop-up della trama in hover"
-git push
